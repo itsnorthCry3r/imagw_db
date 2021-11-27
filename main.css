@@ -1,8 +1,1 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-image: url("./bg.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #484151;
-}
+body{padding-left:0;}body{padding-bottom:0;}body{padding-right:0;}body{padding-top:0;}body{margin-left:0;}body{margin-bottom:0;}body{margin-right:0;}body{margin-top:0;}body{background-image:url("./bg.svg");}body{background-size:100%;}body{background-repeat:no-repeat;}body{background-color:#484151;}

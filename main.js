@@ -7,7 +7,9 @@ dat = data.imgs
 
 i = parseInt(i_)
 
-if (i !== null || i !== "null" || i !== "undefined" || i !== undefined) {
+console.log(i_)
+
+if (i_ !== null) {
     if (dat > i || dat === i) {
         if (i !== 0) {
             if (i > 0) {
@@ -25,6 +27,8 @@ if (i !== null || i !== "null" || i !== "undefined" || i !== undefined) {
         console.log("no")
         window.location.href = "./404.jpg";
     }
+} else {
+    document.title = "Image DB | Main Page"
 }
 
 if (r === "true" || r === true) {

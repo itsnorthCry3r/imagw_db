@@ -1,3 +1,3 @@
 data = {
-    "imgs" : 1
+    "imgs" : 3
 }

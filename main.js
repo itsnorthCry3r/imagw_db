@@ -26,3 +26,8 @@ if (i !== null || i !== "null" || i !== "undefined" || i !== undefined) {
         window.location.href = "./404.jpg";
     }
 }
+
+if (r === "true" || r === true) {
+    rn = Math.floor(Math.random() * dat + 1)
+    window.location.href = "./img/" + rn + ".jpg";
+}

@@ -3,7 +3,7 @@ const express = require('express');
 const images = require('./images')
 const components = require('./components')
 
-exports = port = 1234;
+exports = port = process.env.PORT || 1234;
 exports = app = express();
 
 exports = files = images();

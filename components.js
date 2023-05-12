@@ -16,13 +16,17 @@ module.exports = () => {
     
     app.use(express.static(path.join(__dirname, 'public')));
     
-    app.set('views', path.join(__dirname, 'views'));
+    app.set('views', path.join(__dirname, 'public'));
     
     app.engine('html', require('ejs').renderFile);
     app.set('view engine', 'html');
 
-    app.get('/', (req, res) => {
-        res.render('index')
+    app.get('/*', (req, res) => {
+        if (req.params['0'] != 'image/') {
+            res.render('index')
+        } else {
+            res.sendFile(path.join(__dirname, '/public/404.jpg'))
+        }
     })
     
 }

@@ -1,7 +1,5 @@
 const fs = require('fs');
 
-const components = require('../components')
-
 module.exports = () => {
 
     const path = __dirname + '/files'
